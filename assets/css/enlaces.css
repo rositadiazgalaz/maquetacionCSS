@@ -1,0 +1,37 @@
+a{
+	font-size: 20px;
+	/*color:#7A2173;*/
+	text-decoration: none;
+	margin:10px 10px 10px 0;
+	padding: 10px 20px;
+}
+/* Seudoclases para los enlaces */
+a:link{ /*para cambiar color de los enlaces no visitados*/
+	color:#F525BD;
+}
+a:hover{ /*suceden los cambios cuando pasas el mouse
+	sobre el enlace*/
+	text-decoration: underline;
+	background: #B6B1B1;
+	color:#F9F0F0;
+
+}
+a:active{ /*sucede cuando se da click en un enlace */
+	color:#498875;
+	background-color: #9DD32A;
+}
+a:visited{ /*es como se muestran los enlaces
+ ya visitados*/
+	color:#501B58;
+
+}
+/*------de enlaces a botones----------------*/
+div a{
+	font-size: 20px;
+	text-decoration: none;
+	margin: 10px 10px 10px  10px;
+	background: #F41368;
+	padding: 15px 20px ;
+	display: inline-block;/*recomendado al convertir 
+	un enlace a boton */
+}

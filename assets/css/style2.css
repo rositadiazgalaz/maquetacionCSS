@@ -1,0 +1,10 @@
+h1, a, div, p{
+	background: #F18D0B;
+}
+div{
+	width: 200px;
+	margin: 40px 70px;
+	padding: 30px;
+	border:5px solid #0E7F13;
+	display: inline-block;
+}
