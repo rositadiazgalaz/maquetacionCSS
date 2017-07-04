@@ -72,3 +72,8 @@ p span a{
 	color:#746F46;
 	font-size: 30px;
 }
+div a {
+	background: #B08484;
+	padding: 10px;
+	margin: 10px;
+}

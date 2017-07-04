@@ -1,0 +1,51 @@
+form{
+	width: 25%;
+	border: 1px solid #C2B8B8;
+	margin: 20px;
+	padding: 20px;
+}
+label{
+	font-size: 12px;
+	display: block; /*la etiqueta label es inline, la trasformamos 
+	en block para que se ordene el formulario y poder trabajar padding*/
+	width: 100%;
+}
+
+textarea{
+	resize: vertical; /* textarea se agranda hacia abajo*/
+	max-height: 300px; /*le indicamos una altura maxima de 300 px*/
+	min-height: 100px; /*determina la altura minima requirida*/
+}
+
+input, textarea{
+	margin-bottom: 20px;
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box; /* para que todo se arregle dentro
+	de su contebedor */
+	border:1px solid #837575;
+}
+/* focus indica en que parte del formulario se encuentra el usuario
+al dar click a algun input o textarea*/
+input:focus, textarea:focus {
+
+	border:1px solid #29E9F0;
+}
+
+input[type="submit"] {
+	margin-bottom: 0;
+	background: #137A61;
+	color: whitesmoke;
+	border: none;
+}
+
+input[type="submit"]:hover{
+	background: #47959C;
+	cursor: pointer;
+}
+a{
+	background: #5B3B62;
+	color: #CDBCBC;
+	padding: 10px;
+	text-decoration: none;
+}

@@ -1,0 +1,23 @@
+.menu{
+	width: 100%; /* que abarque el 100% del contenedor*/
+	background: #10B0AA; /* color de fonfo*/
+	list-style: none; /* sacar decoracion de lista*/
+	margin: 0; /*margen cero*/
+	padding: 0; /*relleno cero*/
+}
+
+.menu li{
+	display: inline-block;
+}
+
+.menu li a {
+	padding: 10px 20px;
+	display: inline-block; /* los elementos a son inline por lo 
+	que se deben convetir en block para poder cambiar el padding*/
+	color:whitesmoke;
+	text-decoration:none;
+}
+.menu li a:hover{
+	
+	color:indigo;
+}
